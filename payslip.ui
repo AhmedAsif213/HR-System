@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PayrollScreen</class>
+ <widget class="QMainWindow" name="PayrollScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>652</width>
+    <height>325</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Payroll Screen</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="rowCount">
+       <number>0</number>
+      </property>
+      <property name="columnCount">
+       <number>7</number>
+      </property>
+      <column>
+       <property name="text">
+        <string>Payroll ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Salary ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Attendance</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Tax Deducted</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Bonus Added</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Gross Salary</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Date</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>652</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuP">
+    <property name="title">
+     <string>Payroll_Id</string>
+    </property>
+   </widget>
+   <addaction name="menuP"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

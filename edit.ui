@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateEmployeeForm</class>
+ <widget class="QWidget" name="UpdateEmployeeForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Update Employee</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_employee_id">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_first_name">
+     <property name="text">
+      <string>First Name:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_first_name"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_last_name">
+     <property name="text">
+      <string>Last Name:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_last_name"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_hire_date">
+     <property name="text">
+      <string>Hire Date (YYYY-MM-DD):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_hire_date"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_gender">
+     <property name="text">
+      <string>Gender:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_gender"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_age">
+     <property name="text">
+      <string>Age:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_age"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_phone_number">
+     <property name="text">
+      <string>Phone Number:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_phone_number"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_email">
+     <property name="text">
+      <string>Email:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_email"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_address">
+     <property name="text">
+      <string>Address:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_address"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_department_name">
+     <property name="text">
+      <string>Department Name:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_edit_department_name"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="button_update">
+     <property name="text">
+      <string>Update Employee</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
